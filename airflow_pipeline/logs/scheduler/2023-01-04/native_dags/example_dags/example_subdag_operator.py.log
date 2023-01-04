@@ -28,3 +28,363 @@
 [2023-01-04 08:01:45,896] {logging_mixin.py:115} INFO - [2023-01-04 08:01:45,896] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
 [2023-01-04 08:01:45,897] {logging_mixin.py:115} INFO - [2023-01-04 08:01:45,897] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
 [2023-01-04 08:01:45,906] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.126 seconds
+[2023-01-04 08:10:57,994] {processor.py:153} INFO - Started process (PID=3679) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:10:57,996] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:10:57,997] {logging_mixin.py:115} INFO - [2023-01-04 08:10:57,996] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:10:58,024] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:10:58,044] {logging_mixin.py:115} INFO - [2023-01-04 08:10:58,044] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:10:58,068] {logging_mixin.py:115} INFO - [2023-01-04 08:10:58,068] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:10:58,068] {logging_mixin.py:115} INFO - [2023-01-04 08:10:58,068] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:10:58,068] {logging_mixin.py:115} INFO - [2023-01-04 08:10:58,068] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:10:58,078] {logging_mixin.py:115} INFO - [2023-01-04 08:10:58,078] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:10:58,086] {logging_mixin.py:115} INFO - [2023-01-04 08:10:58,086] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:10:58,086] {logging_mixin.py:115} INFO - [2023-01-04 08:10:58,086] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:10:58,096] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.105 seconds
+[2023-01-04 08:11:33,849] {processor.py:153} INFO - Started process (PID=3943) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:11:33,851] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:11:33,852] {logging_mixin.py:115} INFO - [2023-01-04 08:11:33,852] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:11:33,887] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:11:33,917] {logging_mixin.py:115} INFO - [2023-01-04 08:11:33,917] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:11:33,936] {logging_mixin.py:115} INFO - [2023-01-04 08:11:33,936] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:11:33,936] {logging_mixin.py:115} INFO - [2023-01-04 08:11:33,936] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:11:33,936] {logging_mixin.py:115} INFO - [2023-01-04 08:11:33,936] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:11:33,940] {logging_mixin.py:115} INFO - [2023-01-04 08:11:33,940] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:11:33,942] {logging_mixin.py:115} INFO - [2023-01-04 08:11:33,942] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:11:33,943] {logging_mixin.py:115} INFO - [2023-01-04 08:11:33,943] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:11:33,965] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.122 seconds
+[2023-01-04 08:12:07,683] {processor.py:153} INFO - Started process (PID=4146) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:12:07,684] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:12:07,684] {logging_mixin.py:115} INFO - [2023-01-04 08:12:07,684] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:12:07,704] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:12:07,719] {logging_mixin.py:115} INFO - [2023-01-04 08:12:07,719] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:12:07,734] {logging_mixin.py:115} INFO - [2023-01-04 08:12:07,734] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:12:07,735] {logging_mixin.py:115} INFO - [2023-01-04 08:12:07,735] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:12:07,735] {logging_mixin.py:115} INFO - [2023-01-04 08:12:07,735] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:12:07,739] {logging_mixin.py:115} INFO - [2023-01-04 08:12:07,739] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:12:07,744] {logging_mixin.py:115} INFO - [2023-01-04 08:12:07,744] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:12:07,744] {logging_mixin.py:115} INFO - [2023-01-04 08:12:07,744] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:12:07,750] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.070 seconds
+[2023-01-04 08:12:40,875] {processor.py:153} INFO - Started process (PID=4186) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:12:40,876] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:12:40,877] {logging_mixin.py:115} INFO - [2023-01-04 08:12:40,877] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:12:40,896] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:12:40,912] {logging_mixin.py:115} INFO - [2023-01-04 08:12:40,912] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:12:40,929] {logging_mixin.py:115} INFO - [2023-01-04 08:12:40,929] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:12:40,929] {logging_mixin.py:115} INFO - [2023-01-04 08:12:40,929] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:12:40,929] {logging_mixin.py:115} INFO - [2023-01-04 08:12:40,929] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:12:40,933] {logging_mixin.py:115} INFO - [2023-01-04 08:12:40,933] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:12:40,936] {logging_mixin.py:115} INFO - [2023-01-04 08:12:40,935] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:12:40,936] {logging_mixin.py:115} INFO - [2023-01-04 08:12:40,936] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:12:40,947] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.076 seconds
+[2023-01-04 08:13:15,994] {processor.py:153} INFO - Started process (PID=4222) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:13:15,996] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:13:15,998] {logging_mixin.py:115} INFO - [2023-01-04 08:13:15,998] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:13:16,029] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:13:16,046] {logging_mixin.py:115} INFO - [2023-01-04 08:13:16,046] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:13:16,060] {logging_mixin.py:115} INFO - [2023-01-04 08:13:16,060] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:13:16,060] {logging_mixin.py:115} INFO - [2023-01-04 08:13:16,060] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:13:16,060] {logging_mixin.py:115} INFO - [2023-01-04 08:13:16,060] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:13:16,064] {logging_mixin.py:115} INFO - [2023-01-04 08:13:16,064] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:13:16,067] {logging_mixin.py:115} INFO - [2023-01-04 08:13:16,067] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:13:16,067] {logging_mixin.py:115} INFO - [2023-01-04 08:13:16,067] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:13:16,075] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.092 seconds
+[2023-01-04 08:13:50,370] {processor.py:153} INFO - Started process (PID=4261) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:13:50,371] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:13:50,371] {logging_mixin.py:115} INFO - [2023-01-04 08:13:50,371] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:13:50,391] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:13:50,404] {logging_mixin.py:115} INFO - [2023-01-04 08:13:50,404] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:13:50,428] {logging_mixin.py:115} INFO - [2023-01-04 08:13:50,427] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:13:50,428] {logging_mixin.py:115} INFO - [2023-01-04 08:13:50,428] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:13:50,429] {logging_mixin.py:115} INFO - [2023-01-04 08:13:50,429] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:13:50,438] {logging_mixin.py:115} INFO - [2023-01-04 08:13:50,438] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:13:50,445] {logging_mixin.py:115} INFO - [2023-01-04 08:13:50,445] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:13:50,445] {logging_mixin.py:115} INFO - [2023-01-04 08:13:50,445] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:13:50,459] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.093 seconds
+[2023-01-04 08:14:25,814] {processor.py:153} INFO - Started process (PID=4357) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:14:25,816] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:14:25,817] {logging_mixin.py:115} INFO - [2023-01-04 08:14:25,817] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:14:25,847] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:14:25,865] {logging_mixin.py:115} INFO - [2023-01-04 08:14:25,865] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:14:25,892] {logging_mixin.py:115} INFO - [2023-01-04 08:14:25,892] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:14:25,893] {logging_mixin.py:115} INFO - [2023-01-04 08:14:25,893] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:14:25,893] {logging_mixin.py:115} INFO - [2023-01-04 08:14:25,893] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:14:25,902] {logging_mixin.py:115} INFO - [2023-01-04 08:14:25,902] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:14:25,909] {logging_mixin.py:115} INFO - [2023-01-04 08:14:25,909] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:14:25,910] {logging_mixin.py:115} INFO - [2023-01-04 08:14:25,910] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:14:25,918] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.111 seconds
+[2023-01-04 08:15:00,274] {processor.py:153} INFO - Started process (PID=4443) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:15:00,275] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:15:00,275] {logging_mixin.py:115} INFO - [2023-01-04 08:15:00,275] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:15:00,301] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:15:00,334] {logging_mixin.py:115} INFO - [2023-01-04 08:15:00,333] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:15:00,356] {logging_mixin.py:115} INFO - [2023-01-04 08:15:00,355] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:15:00,356] {logging_mixin.py:115} INFO - [2023-01-04 08:15:00,356] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:15:00,356] {logging_mixin.py:115} INFO - [2023-01-04 08:15:00,356] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:15:00,363] {logging_mixin.py:115} INFO - [2023-01-04 08:15:00,363] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:15:00,367] {logging_mixin.py:115} INFO - [2023-01-04 08:15:00,367] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:15:00,368] {logging_mixin.py:115} INFO - [2023-01-04 08:15:00,367] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:15:00,376] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.107 seconds
+[2023-01-04 08:15:34,843] {processor.py:153} INFO - Started process (PID=4658) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:15:34,845] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:15:34,846] {logging_mixin.py:115} INFO - [2023-01-04 08:15:34,846] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:15:34,868] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:15:34,888] {logging_mixin.py:115} INFO - [2023-01-04 08:15:34,888] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:15:34,905] {logging_mixin.py:115} INFO - [2023-01-04 08:15:34,905] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:15:34,905] {logging_mixin.py:115} INFO - [2023-01-04 08:15:34,905] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:15:34,906] {logging_mixin.py:115} INFO - [2023-01-04 08:15:34,905] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:15:34,910] {logging_mixin.py:115} INFO - [2023-01-04 08:15:34,910] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:15:34,914] {logging_mixin.py:115} INFO - [2023-01-04 08:15:34,914] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:15:34,914] {logging_mixin.py:115} INFO - [2023-01-04 08:15:34,914] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:15:34,924] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.084 seconds
+[2023-01-04 08:16:07,667] {processor.py:153} INFO - Started process (PID=4897) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:16:07,668] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:16:07,668] {logging_mixin.py:115} INFO - [2023-01-04 08:16:07,668] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:16:07,690] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:16:07,718] {logging_mixin.py:115} INFO - [2023-01-04 08:16:07,718] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:16:07,733] {logging_mixin.py:115} INFO - [2023-01-04 08:16:07,733] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:16:07,734] {logging_mixin.py:115} INFO - [2023-01-04 08:16:07,734] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:16:07,734] {logging_mixin.py:115} INFO - [2023-01-04 08:16:07,734] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:16:07,739] {logging_mixin.py:115} INFO - [2023-01-04 08:16:07,739] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:16:07,743] {logging_mixin.py:115} INFO - [2023-01-04 08:16:07,743] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:16:07,743] {logging_mixin.py:115} INFO - [2023-01-04 08:16:07,743] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:16:07,750] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.087 seconds
+[2023-01-04 08:16:41,573] {processor.py:153} INFO - Started process (PID=5102) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:16:41,573] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:16:41,574] {logging_mixin.py:115} INFO - [2023-01-04 08:16:41,574] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:16:41,593] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:16:41,610] {logging_mixin.py:115} INFO - [2023-01-04 08:16:41,610] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:16:41,624] {logging_mixin.py:115} INFO - [2023-01-04 08:16:41,624] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:16:41,625] {logging_mixin.py:115} INFO - [2023-01-04 08:16:41,625] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:16:41,625] {logging_mixin.py:115} INFO - [2023-01-04 08:16:41,625] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:16:41,628] {logging_mixin.py:115} INFO - [2023-01-04 08:16:41,628] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:16:41,632] {logging_mixin.py:115} INFO - [2023-01-04 08:16:41,632] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:16:41,632] {logging_mixin.py:115} INFO - [2023-01-04 08:16:41,632] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:16:41,638] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.069 seconds
+[2023-01-04 08:17:16,449] {processor.py:153} INFO - Started process (PID=5309) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:17:16,451] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:17:16,453] {logging_mixin.py:115} INFO - [2023-01-04 08:17:16,452] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:17:16,486] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:17:16,498] {logging_mixin.py:115} INFO - [2023-01-04 08:17:16,498] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:17:16,513] {logging_mixin.py:115} INFO - [2023-01-04 08:17:16,513] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:17:16,513] {logging_mixin.py:115} INFO - [2023-01-04 08:17:16,513] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:17:16,514] {logging_mixin.py:115} INFO - [2023-01-04 08:17:16,514] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:17:16,519] {logging_mixin.py:115} INFO - [2023-01-04 08:17:16,519] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:17:16,522] {logging_mixin.py:115} INFO - [2023-01-04 08:17:16,522] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:17:16,522] {logging_mixin.py:115} INFO - [2023-01-04 08:17:16,522] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:17:16,528] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.085 seconds
+[2023-01-04 08:17:50,600] {processor.py:153} INFO - Started process (PID=5518) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:17:50,600] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:17:50,601] {logging_mixin.py:115} INFO - [2023-01-04 08:17:50,601] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:17:50,623] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:17:50,639] {logging_mixin.py:115} INFO - [2023-01-04 08:17:50,639] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:17:50,660] {logging_mixin.py:115} INFO - [2023-01-04 08:17:50,659] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:17:50,660] {logging_mixin.py:115} INFO - [2023-01-04 08:17:50,660] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:17:50,660] {logging_mixin.py:115} INFO - [2023-01-04 08:17:50,660] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:17:50,667] {logging_mixin.py:115} INFO - [2023-01-04 08:17:50,666] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:17:50,673] {logging_mixin.py:115} INFO - [2023-01-04 08:17:50,673] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:17:50,673] {logging_mixin.py:115} INFO - [2023-01-04 08:17:50,673] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:17:50,686] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.089 seconds
+[2023-01-04 08:18:24,878] {processor.py:153} INFO - Started process (PID=5704) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:18:24,880] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:18:24,881] {logging_mixin.py:115} INFO - [2023-01-04 08:18:24,881] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:18:24,909] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:18:24,924] {logging_mixin.py:115} INFO - [2023-01-04 08:18:24,924] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:18:24,942] {logging_mixin.py:115} INFO - [2023-01-04 08:18:24,942] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:18:24,942] {logging_mixin.py:115} INFO - [2023-01-04 08:18:24,942] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:18:24,943] {logging_mixin.py:115} INFO - [2023-01-04 08:18:24,943] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:18:24,951] {logging_mixin.py:115} INFO - [2023-01-04 08:18:24,951] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:18:24,958] {logging_mixin.py:115} INFO - [2023-01-04 08:18:24,958] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:18:24,959] {logging_mixin.py:115} INFO - [2023-01-04 08:18:24,958] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:18:24,970] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.099 seconds
+[2023-01-04 08:18:59,294] {processor.py:153} INFO - Started process (PID=5906) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:18:59,295] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:18:59,296] {logging_mixin.py:115} INFO - [2023-01-04 08:18:59,296] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:18:59,314] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:18:59,327] {logging_mixin.py:115} INFO - [2023-01-04 08:18:59,327] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:18:59,342] {logging_mixin.py:115} INFO - [2023-01-04 08:18:59,342] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:18:59,343] {logging_mixin.py:115} INFO - [2023-01-04 08:18:59,343] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:18:59,343] {logging_mixin.py:115} INFO - [2023-01-04 08:18:59,343] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:18:59,351] {logging_mixin.py:115} INFO - [2023-01-04 08:18:59,351] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:18:59,355] {logging_mixin.py:115} INFO - [2023-01-04 08:18:59,355] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:18:59,356] {logging_mixin.py:115} INFO - [2023-01-04 08:18:59,356] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:18:59,367] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.076 seconds
+[2023-01-04 08:19:36,291] {processor.py:153} INFO - Started process (PID=6114) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:19:36,293] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:19:36,293] {logging_mixin.py:115} INFO - [2023-01-04 08:19:36,293] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:19:36,330] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:19:36,349] {logging_mixin.py:115} INFO - [2023-01-04 08:19:36,348] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:19:36,378] {logging_mixin.py:115} INFO - [2023-01-04 08:19:36,378] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:19:36,379] {logging_mixin.py:115} INFO - [2023-01-04 08:19:36,379] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:19:36,380] {logging_mixin.py:115} INFO - [2023-01-04 08:19:36,379] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:19:36,394] {logging_mixin.py:115} INFO - [2023-01-04 08:19:36,394] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:19:36,402] {logging_mixin.py:115} INFO - [2023-01-04 08:19:36,402] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:19:36,403] {logging_mixin.py:115} INFO - [2023-01-04 08:19:36,403] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:19:36,414] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.126 seconds
+[2023-01-04 08:20:11,339] {processor.py:153} INFO - Started process (PID=6322) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:20:11,340] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:20:11,342] {logging_mixin.py:115} INFO - [2023-01-04 08:20:11,342] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:20:11,370] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:20:11,385] {logging_mixin.py:115} INFO - [2023-01-04 08:20:11,385] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:20:11,406] {logging_mixin.py:115} INFO - [2023-01-04 08:20:11,406] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:20:11,406] {logging_mixin.py:115} INFO - [2023-01-04 08:20:11,406] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:20:11,406] {logging_mixin.py:115} INFO - [2023-01-04 08:20:11,406] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:20:11,411] {logging_mixin.py:115} INFO - [2023-01-04 08:20:11,410] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:20:11,414] {logging_mixin.py:115} INFO - [2023-01-04 08:20:11,414] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:20:11,414] {logging_mixin.py:115} INFO - [2023-01-04 08:20:11,414] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:20:11,420] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.087 seconds
+[2023-01-04 08:20:43,831] {processor.py:153} INFO - Started process (PID=6577) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:20:43,833] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:20:43,834] {logging_mixin.py:115} INFO - [2023-01-04 08:20:43,834] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:20:43,869] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:20:43,886] {logging_mixin.py:115} INFO - [2023-01-04 08:20:43,886] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:20:43,914] {logging_mixin.py:115} INFO - [2023-01-04 08:20:43,914] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:20:43,915] {logging_mixin.py:115} INFO - [2023-01-04 08:20:43,915] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:20:43,915] {logging_mixin.py:115} INFO - [2023-01-04 08:20:43,915] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:20:43,925] {logging_mixin.py:115} INFO - [2023-01-04 08:20:43,925] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:20:43,935] {logging_mixin.py:115} INFO - [2023-01-04 08:20:43,935] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:20:43,936] {logging_mixin.py:115} INFO - [2023-01-04 08:20:43,936] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:20:43,952] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.128 seconds
+[2023-01-04 08:21:18,565] {processor.py:153} INFO - Started process (PID=6758) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:21:18,566] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:21:18,567] {logging_mixin.py:115} INFO - [2023-01-04 08:21:18,567] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:21:18,599] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:21:18,626] {logging_mixin.py:115} INFO - [2023-01-04 08:21:18,626] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:21:18,654] {logging_mixin.py:115} INFO - [2023-01-04 08:21:18,653] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:21:18,654] {logging_mixin.py:115} INFO - [2023-01-04 08:21:18,654] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:21:18,654] {logging_mixin.py:115} INFO - [2023-01-04 08:21:18,654] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:21:18,660] {logging_mixin.py:115} INFO - [2023-01-04 08:21:18,660] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:21:18,666] {logging_mixin.py:115} INFO - [2023-01-04 08:21:18,666] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:21:18,667] {logging_mixin.py:115} INFO - [2023-01-04 08:21:18,667] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:21:18,684] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.122 seconds
+[2023-01-04 08:21:51,156] {processor.py:153} INFO - Started process (PID=6961) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:21:51,158] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:21:51,160] {logging_mixin.py:115} INFO - [2023-01-04 08:21:51,160] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:21:51,177] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:21:51,210] {logging_mixin.py:115} INFO - [2023-01-04 08:21:51,210] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:21:51,231] {logging_mixin.py:115} INFO - [2023-01-04 08:21:51,231] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:21:51,232] {logging_mixin.py:115} INFO - [2023-01-04 08:21:51,232] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:21:51,232] {logging_mixin.py:115} INFO - [2023-01-04 08:21:51,232] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:21:51,242] {logging_mixin.py:115} INFO - [2023-01-04 08:21:51,242] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:21:51,252] {logging_mixin.py:115} INFO - [2023-01-04 08:21:51,252] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:21:51,252] {logging_mixin.py:115} INFO - [2023-01-04 08:21:51,252] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:21:51,262] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.113 seconds
+[2023-01-04 08:22:25,026] {processor.py:153} INFO - Started process (PID=7139) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:22:25,027] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:22:25,028] {logging_mixin.py:115} INFO - [2023-01-04 08:22:25,028] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:22:25,065] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:22:25,087] {logging_mixin.py:115} INFO - [2023-01-04 08:22:25,086] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:22:25,113] {logging_mixin.py:115} INFO - [2023-01-04 08:22:25,113] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:22:25,114] {logging_mixin.py:115} INFO - [2023-01-04 08:22:25,114] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:22:25,114] {logging_mixin.py:115} INFO - [2023-01-04 08:22:25,114] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:22:25,121] {logging_mixin.py:115} INFO - [2023-01-04 08:22:25,121] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:22:25,126] {logging_mixin.py:115} INFO - [2023-01-04 08:22:25,126] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:22:25,126] {logging_mixin.py:115} INFO - [2023-01-04 08:22:25,126] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:22:25,134] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.115 seconds
+[2023-01-04 08:22:56,968] {processor.py:153} INFO - Started process (PID=7351) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:22:56,970] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:22:56,972] {logging_mixin.py:115} INFO - [2023-01-04 08:22:56,971] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:22:57,009] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:22:57,035] {logging_mixin.py:115} INFO - [2023-01-04 08:22:57,035] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:22:57,058] {logging_mixin.py:115} INFO - [2023-01-04 08:22:57,057] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:22:57,059] {logging_mixin.py:115} INFO - [2023-01-04 08:22:57,058] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:22:57,060] {logging_mixin.py:115} INFO - [2023-01-04 08:22:57,060] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:22:57,071] {logging_mixin.py:115} INFO - [2023-01-04 08:22:57,071] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:22:57,077] {logging_mixin.py:115} INFO - [2023-01-04 08:22:57,077] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:22:57,077] {logging_mixin.py:115} INFO - [2023-01-04 08:22:57,077] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:22:57,087] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.126 seconds
+[2023-01-04 08:23:31,749] {processor.py:153} INFO - Started process (PID=7536) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:23:31,751] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:23:31,753] {logging_mixin.py:115} INFO - [2023-01-04 08:23:31,753] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:23:31,785] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:23:31,800] {logging_mixin.py:115} INFO - [2023-01-04 08:23:31,800] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:23:31,822] {logging_mixin.py:115} INFO - [2023-01-04 08:23:31,822] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:23:31,823] {logging_mixin.py:115} INFO - [2023-01-04 08:23:31,823] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:23:31,823] {logging_mixin.py:115} INFO - [2023-01-04 08:23:31,823] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:23:31,831] {logging_mixin.py:115} INFO - [2023-01-04 08:23:31,830] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:23:31,837] {logging_mixin.py:115} INFO - [2023-01-04 08:23:31,837] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:23:31,838] {logging_mixin.py:115} INFO - [2023-01-04 08:23:31,837] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:23:31,851] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.109 seconds
+[2023-01-04 08:24:06,422] {processor.py:153} INFO - Started process (PID=7739) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:24:06,424] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:24:06,425] {logging_mixin.py:115} INFO - [2023-01-04 08:24:06,424] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:24:06,448] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:24:06,461] {logging_mixin.py:115} INFO - [2023-01-04 08:24:06,461] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:24:06,478] {logging_mixin.py:115} INFO - [2023-01-04 08:24:06,478] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:24:06,478] {logging_mixin.py:115} INFO - [2023-01-04 08:24:06,478] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:24:06,479] {logging_mixin.py:115} INFO - [2023-01-04 08:24:06,479] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:24:06,487] {logging_mixin.py:115} INFO - [2023-01-04 08:24:06,487] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:24:06,494] {logging_mixin.py:115} INFO - [2023-01-04 08:24:06,494] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:24:06,494] {logging_mixin.py:115} INFO - [2023-01-04 08:24:06,494] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:24:06,503] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.087 seconds
+[2023-01-04 08:24:45,210] {processor.py:153} INFO - Started process (PID=7970) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:24:45,212] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:24:45,213] {logging_mixin.py:115} INFO - [2023-01-04 08:24:45,213] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:24:45,247] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:24:45,268] {logging_mixin.py:115} INFO - [2023-01-04 08:24:45,268] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:24:45,286] {logging_mixin.py:115} INFO - [2023-01-04 08:24:45,286] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:24:45,286] {logging_mixin.py:115} INFO - [2023-01-04 08:24:45,286] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:24:45,287] {logging_mixin.py:115} INFO - [2023-01-04 08:24:45,287] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:24:45,296] {logging_mixin.py:115} INFO - [2023-01-04 08:24:45,295] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:24:45,302] {logging_mixin.py:115} INFO - [2023-01-04 08:24:45,302] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:24:45,303] {logging_mixin.py:115} INFO - [2023-01-04 08:24:45,303] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:24:45,316] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.113 seconds
+[2023-01-04 08:25:17,074] {processor.py:153} INFO - Started process (PID=8149) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:25:17,075] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:25:17,076] {logging_mixin.py:115} INFO - [2023-01-04 08:25:17,075] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:25:17,125] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:25:17,144] {logging_mixin.py:115} INFO - [2023-01-04 08:25:17,143] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:25:17,159] {logging_mixin.py:115} INFO - [2023-01-04 08:25:17,159] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:25:17,159] {logging_mixin.py:115} INFO - [2023-01-04 08:25:17,159] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:25:17,159] {logging_mixin.py:115} INFO - [2023-01-04 08:25:17,159] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:25:17,164] {logging_mixin.py:115} INFO - [2023-01-04 08:25:17,164] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:25:17,168] {logging_mixin.py:115} INFO - [2023-01-04 08:25:17,168] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:25:17,168] {logging_mixin.py:115} INFO - [2023-01-04 08:25:17,168] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:25:17,181] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.112 seconds
+[2023-01-04 08:25:51,004] {processor.py:153} INFO - Started process (PID=8406) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:25:51,006] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:25:51,007] {logging_mixin.py:115} INFO - [2023-01-04 08:25:51,007] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:25:51,051] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:25:51,084] {logging_mixin.py:115} INFO - [2023-01-04 08:25:51,084] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:25:51,121] {logging_mixin.py:115} INFO - [2023-01-04 08:25:51,120] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:25:51,121] {logging_mixin.py:115} INFO - [2023-01-04 08:25:51,121] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:25:51,121] {logging_mixin.py:115} INFO - [2023-01-04 08:25:51,121] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:25:51,133] {logging_mixin.py:115} INFO - [2023-01-04 08:25:51,133] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:25:51,146] {logging_mixin.py:115} INFO - [2023-01-04 08:25:51,146] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:25:51,147] {logging_mixin.py:115} INFO - [2023-01-04 08:25:51,146] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:25:51,164] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.164 seconds
+[2023-01-04 08:26:27,765] {processor.py:153} INFO - Started process (PID=8615) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:26:27,767] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:26:27,769] {logging_mixin.py:115} INFO - [2023-01-04 08:26:27,769] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:26:27,807] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:26:27,833] {logging_mixin.py:115} INFO - [2023-01-04 08:26:27,833] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:26:27,878] {logging_mixin.py:115} INFO - [2023-01-04 08:26:27,878] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:26:27,879] {logging_mixin.py:115} INFO - [2023-01-04 08:26:27,879] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:26:27,880] {logging_mixin.py:115} INFO - [2023-01-04 08:26:27,879] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:26:27,890] {logging_mixin.py:115} INFO - [2023-01-04 08:26:27,890] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:26:27,899] {logging_mixin.py:115} INFO - [2023-01-04 08:26:27,898] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:26:27,899] {logging_mixin.py:115} INFO - [2023-01-04 08:26:27,899] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:26:27,914] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.154 seconds
+[2023-01-04 08:27:03,723] {processor.py:153} INFO - Started process (PID=8823) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:27:03,724] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:27:03,725] {logging_mixin.py:115} INFO - [2023-01-04 08:27:03,725] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:27:03,743] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:27:03,756] {logging_mixin.py:115} INFO - [2023-01-04 08:27:03,756] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:27:03,769] {logging_mixin.py:115} INFO - [2023-01-04 08:27:03,769] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:27:03,769] {logging_mixin.py:115} INFO - [2023-01-04 08:27:03,769] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:27:03,769] {logging_mixin.py:115} INFO - [2023-01-04 08:27:03,769] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:27:03,773] {logging_mixin.py:115} INFO - [2023-01-04 08:27:03,772] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:27:03,775] {logging_mixin.py:115} INFO - [2023-01-04 08:27:03,775] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:27:03,775] {logging_mixin.py:115} INFO - [2023-01-04 08:27:03,775] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:27:03,782] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.066 seconds
+[2023-01-04 08:27:40,022] {processor.py:153} INFO - Started process (PID=9037) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:27:40,024] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-01-04 08:27:40,025] {logging_mixin.py:115} INFO - [2023-01-04 08:27:40,025] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:27:40,061] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-01-04 08:27:40,090] {logging_mixin.py:115} INFO - [2023-01-04 08:27:40,090] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-01-04 08:27:40,110] {logging_mixin.py:115} INFO - [2023-01-04 08:27:40,110] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-01-04 08:27:40,110] {logging_mixin.py:115} INFO - [2023-01-04 08:27:40,110] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:27:40,110] {logging_mixin.py:115} INFO - [2023-01-04 08:27:40,110] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:27:40,117] {logging_mixin.py:115} INFO - [2023-01-04 08:27:40,117] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 08:27:40,121] {logging_mixin.py:115} INFO - [2023-01-04 08:27:40,121] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-01-04 08:27:40,121] {logging_mixin.py:115} INFO - [2023-01-04 08:27:40,121] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-01-04 08:27:40,130] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.112 seconds
