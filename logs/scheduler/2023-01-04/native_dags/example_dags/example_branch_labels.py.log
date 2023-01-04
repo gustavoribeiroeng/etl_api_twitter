@@ -1,0 +1,18 @@
+[2023-01-04 07:51:24,177] {processor.py:153} INFO - Started process (PID=23163) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-01-04 07:51:24,178] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-01-04 07:51:24,179] {logging_mixin.py:115} INFO - [2023-01-04 07:51:24,179] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-01-04 07:51:24,206] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-01-04 07:51:24,340] {logging_mixin.py:115} INFO - [2023-01-04 07:51:24,340] {manager.py:508} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2023-01-04 07:51:24,352] {logging_mixin.py:115} INFO - [2023-01-04 07:51:24,352] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2023-01-04 07:51:24,361] {logging_mixin.py:115} INFO - [2023-01-04 07:51:24,361] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2023-01-04 07:51:24,361] {logging_mixin.py:115} INFO - [2023-01-04 07:51:24,361] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:51:24,370] {logging_mixin.py:115} INFO - [2023-01-04 07:51:24,370] {dag.py:2398} INFO - Creating ORM DAG for example_branch_labels
+[2023-01-04 07:51:24,388] {logging_mixin.py:115} INFO - [2023-01-04 07:51:24,388] {dag.py:2927} INFO - Setting next_dagrun for example_branch_labels to 2023-01-03T00:00:00+00:00, run_after=2023-01-04T00:00:00+00:00
+[2023-01-04 07:51:24,404] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.236 seconds
+[2023-01-04 07:53:16,439] {processor.py:153} INFO - Started process (PID=24242) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-01-04 07:53:16,443] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-01-04 07:53:16,444] {logging_mixin.py:115} INFO - [2023-01-04 07:53:16,444] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-01-04 07:53:16,462] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-01-04 07:53:16,506] {logging_mixin.py:115} INFO - [2023-01-04 07:53:16,505] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:53:16,552] {logging_mixin.py:115} INFO - [2023-01-04 07:53:16,551] {dag.py:2927} INFO - Setting next_dagrun for example_branch_labels to 2023-01-03T00:00:00+00:00, run_after=2023-01-04T00:00:00+00:00
+[2023-01-04 07:53:16,568] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.136 seconds

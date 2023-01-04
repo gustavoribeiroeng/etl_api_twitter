@@ -1,0 +1,18 @@
+[2023-01-04 07:51:26,903] {processor.py:153} INFO - Started process (PID=23184) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-01-04 07:51:26,906] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-01-04 07:51:26,907] {logging_mixin.py:115} INFO - [2023-01-04 07:51:26,907] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-01-04 07:51:26,930] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-01-04 07:51:27,060] {logging_mixin.py:115} INFO - [2023-01-04 07:51:27,060] {manager.py:508} INFO - Created Permission View: can read on DAG:example_short_circuit_operator
+[2023-01-04 07:51:27,081] {logging_mixin.py:115} INFO - [2023-01-04 07:51:27,080] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_short_circuit_operator
+[2023-01-04 07:51:27,094] {logging_mixin.py:115} INFO - [2023-01-04 07:51:27,093] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_short_circuit_operator
+[2023-01-04 07:51:27,094] {logging_mixin.py:115} INFO - [2023-01-04 07:51:27,094] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:51:27,120] {logging_mixin.py:115} INFO - [2023-01-04 07:51:27,120] {dag.py:2398} INFO - Creating ORM DAG for example_short_circuit_operator
+[2023-01-04 07:51:27,143] {logging_mixin.py:115} INFO - [2023-01-04 07:51:27,143] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-01-03T10:51:27.142211+00:00, run_after=2023-01-04T10:51:27.142211+00:00
+[2023-01-04 07:51:27,180] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.289 seconds
+[2023-01-04 07:53:18,986] {processor.py:153} INFO - Started process (PID=24258) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-01-04 07:53:18,988] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-01-04 07:53:18,989] {logging_mixin.py:115} INFO - [2023-01-04 07:53:18,988] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-01-04 07:53:19,002] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-01-04 07:53:19,030] {logging_mixin.py:115} INFO - [2023-01-04 07:53:19,030] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:53:19,049] {logging_mixin.py:115} INFO - [2023-01-04 07:53:19,049] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-01-03T10:53:19.048873+00:00, run_after=2023-01-04T10:53:19.048873+00:00
+[2023-01-04 07:53:19,064] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.088 seconds

@@ -1,0 +1,39 @@
+[2023-01-04 07:50:13,687] {processor.py:153} INFO - Started process (PID=22744) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:50:13,688] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-01-04 07:50:13,689] {logging_mixin.py:115} INFO - [2023-01-04 07:50:13,689] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:50:13,729] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:50:13,843] {logging_mixin.py:115} INFO - [2023-01-04 07:50:13,843] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom
+[2023-01-04 07:50:13,859] {logging_mixin.py:115} INFO - [2023-01-04 07:50:13,859] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom
+[2023-01-04 07:50:13,873] {logging_mixin.py:115} INFO - [2023-01-04 07:50:13,872] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom
+[2023-01-04 07:50:13,873] {logging_mixin.py:115} INFO - [2023-01-04 07:50:13,873] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:50:13,886] {logging_mixin.py:115} INFO - [2023-01-04 07:50:13,886] {dag.py:2398} INFO - Creating ORM DAG for example_xcom
+[2023-01-04 07:50:13,897] {logging_mixin.py:115} INFO - [2023-01-04 07:50:13,896] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-01-04 07:50:13,922] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.241 seconds
+[2023-01-04 07:50:51,644] {processor.py:153} INFO - Started process (PID=22973) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:50:51,653] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-01-04 07:50:51,654] {logging_mixin.py:115} INFO - [2023-01-04 07:50:51,654] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:50:51,698] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:50:51,781] {logging_mixin.py:115} INFO - [2023-01-04 07:50:51,781] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:50:51,792] {logging_mixin.py:115} INFO - [2023-01-04 07:50:51,792] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-01-04 07:50:51,812] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.177 seconds
+[2023-01-04 07:51:33,181] {processor.py:153} INFO - Started process (PID=23214) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:51:33,183] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-01-04 07:51:33,184] {logging_mixin.py:115} INFO - [2023-01-04 07:51:33,184] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:51:33,216] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:51:33,318] {logging_mixin.py:115} INFO - [2023-01-04 07:51:33,318] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:51:33,339] {logging_mixin.py:115} INFO - [2023-01-04 07:51:33,339] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-01-04 07:51:33,355] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.180 seconds
+[2023-01-04 07:52:47,590] {processor.py:153} INFO - Started process (PID=23786) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:52:47,595] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-01-04 07:52:47,596] {logging_mixin.py:115} INFO - [2023-01-04 07:52:47,595] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:52:47,626] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:52:47,713] {logging_mixin.py:115} INFO - [2023-01-04 07:52:47,713] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:52:47,733] {logging_mixin.py:115} INFO - [2023-01-04 07:52:47,733] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-01-04 07:52:47,757] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.171 seconds
+[2023-01-04 07:53:24,731] {processor.py:153} INFO - Started process (PID=24287) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:53:24,733] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-01-04 07:53:24,734] {logging_mixin.py:115} INFO - [2023-01-04 07:53:24,734] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:53:24,788] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-01-04 07:53:24,974] {logging_mixin.py:115} INFO - [2023-01-04 07:53:24,973] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:53:25,028] {logging_mixin.py:115} INFO - [2023-01-04 07:53:25,024] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-01-04 07:53:25,054] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.350 seconds

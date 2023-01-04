@@ -1,0 +1,39 @@
+[2023-01-04 07:50:09,550] {processor.py:153} INFO - Started process (PID=22721) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:50:09,551] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-01-04 07:50:09,552] {logging_mixin.py:115} INFO - [2023-01-04 07:50:09,552] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:50:09,569] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:50:09,708] {logging_mixin.py:115} INFO - [2023-01-04 07:50:09,707] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_task_group
+[2023-01-04 07:50:09,726] {logging_mixin.py:115} INFO - [2023-01-04 07:50:09,726] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_task_group
+[2023-01-04 07:50:09,742] {logging_mixin.py:115} INFO - [2023-01-04 07:50:09,741] {manager.py:508} INFO - Created Permission View: can read on DAG:example_task_group
+[2023-01-04 07:50:09,742] {logging_mixin.py:115} INFO - [2023-01-04 07:50:09,742] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:50:09,760] {logging_mixin.py:115} INFO - [2023-01-04 07:50:09,760] {dag.py:2398} INFO - Creating ORM DAG for example_task_group
+[2023-01-04 07:50:09,775] {logging_mixin.py:115} INFO - [2023-01-04 07:50:09,775] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-01-03T10:50:09.775110+00:00, run_after=2023-01-04T10:50:09.775110+00:00
+[2023-01-04 07:50:09,830] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.285 seconds
+[2023-01-04 07:50:47,795] {processor.py:153} INFO - Started process (PID=22950) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:50:47,800] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-01-04 07:50:47,801] {logging_mixin.py:115} INFO - [2023-01-04 07:50:47,801] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:50:47,829] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:50:47,956] {logging_mixin.py:115} INFO - [2023-01-04 07:50:47,956] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:50:47,998] {logging_mixin.py:115} INFO - [2023-01-04 07:50:47,998] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-01-03T10:50:47.998524+00:00, run_after=2023-01-04T10:50:47.998524+00:00
+[2023-01-04 07:50:48,015] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.243 seconds
+[2023-01-04 07:51:29,544] {processor.py:153} INFO - Started process (PID=23195) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:51:29,548] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-01-04 07:51:29,549] {logging_mixin.py:115} INFO - [2023-01-04 07:51:29,548] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:51:29,565] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:51:29,599] {logging_mixin.py:115} INFO - [2023-01-04 07:51:29,599] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:51:29,644] {logging_mixin.py:115} INFO - [2023-01-04 07:51:29,644] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-01-03T10:51:29.643472+00:00, run_after=2023-01-04T10:51:29.643472+00:00
+[2023-01-04 07:51:29,663] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.128 seconds
+[2023-01-04 07:52:43,780] {processor.py:153} INFO - Started process (PID=23737) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:52:43,785] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-01-04 07:52:43,786] {logging_mixin.py:115} INFO - [2023-01-04 07:52:43,786] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:52:43,813] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:52:43,871] {logging_mixin.py:115} INFO - [2023-01-04 07:52:43,871] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:52:43,922] {logging_mixin.py:115} INFO - [2023-01-04 07:52:43,922] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-01-03T10:52:43.922103+00:00, run_after=2023-01-04T10:52:43.922103+00:00
+[2023-01-04 07:52:43,948] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.185 seconds
+[2023-01-04 07:53:21,734] {processor.py:153} INFO - Started process (PID=24272) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:53:21,740] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-01-04 07:53:21,741] {logging_mixin.py:115} INFO - [2023-01-04 07:53:21,741] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:53:21,754] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-01-04 07:53:21,826] {logging_mixin.py:115} INFO - [2023-01-04 07:53:21,826] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:53:21,905] {logging_mixin.py:115} INFO - [2023-01-04 07:53:21,904] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-01-03T10:53:21.901540+00:00, run_after=2023-01-04T10:53:21.901540+00:00
+[2023-01-04 07:53:21,945] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.223 seconds

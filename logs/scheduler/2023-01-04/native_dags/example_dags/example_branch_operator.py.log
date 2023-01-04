@@ -1,0 +1,18 @@
+[2023-01-04 07:51:22,907] {processor.py:153} INFO - Started process (PID=23153) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-01-04 07:51:22,907] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-01-04 07:51:22,911] {logging_mixin.py:115} INFO - [2023-01-04 07:51:22,907] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-01-04 07:51:22,948] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-01-04 07:51:23,085] {logging_mixin.py:115} INFO - [2023-01-04 07:51:23,085] {manager.py:508} INFO - Created Permission View: can read on DAG:example_branch_operator
+[2023-01-04 07:51:23,112] {logging_mixin.py:115} INFO - [2023-01-04 07:51:23,112] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_branch_operator
+[2023-01-04 07:51:23,139] {logging_mixin.py:115} INFO - [2023-01-04 07:51:23,139] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_branch_operator
+[2023-01-04 07:51:23,140] {logging_mixin.py:115} INFO - [2023-01-04 07:51:23,140] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:51:23,154] {logging_mixin.py:115} INFO - [2023-01-04 07:51:23,154] {dag.py:2398} INFO - Creating ORM DAG for example_branch_operator
+[2023-01-04 07:51:23,181] {logging_mixin.py:115} INFO - [2023-01-04 07:51:23,181] {dag.py:2927} INFO - Setting next_dagrun for example_branch_operator to 2023-01-03T00:00:00+00:00, run_after=2023-01-04T00:00:00+00:00
+[2023-01-04 07:51:23,227] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.327 seconds
+[2023-01-04 07:53:15,181] {processor.py:153} INFO - Started process (PID=24233) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-01-04 07:53:15,182] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-01-04 07:53:15,182] {logging_mixin.py:115} INFO - [2023-01-04 07:53:15,182] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-01-04 07:53:15,212] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-01-04 07:53:15,253] {logging_mixin.py:115} INFO - [2023-01-04 07:53:15,252] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 07:53:15,284] {logging_mixin.py:115} INFO - [2023-01-04 07:53:15,284] {dag.py:2927} INFO - Setting next_dagrun for example_branch_operator to 2023-01-03T00:00:00+00:00, run_after=2023-01-04T00:00:00+00:00
+[2023-01-04 07:53:15,320] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.145 seconds

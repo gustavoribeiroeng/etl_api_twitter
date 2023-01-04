@@ -1,0 +1,24 @@
+[2023-01-04 07:51:18,732] {processor.py:153} INFO - Started process (PID=23127) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-01-04 07:51:18,734] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-01-04 07:51:18,736] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,735] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-01-04 07:51:18,745] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-01-04 07:51:18,883] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,883] {manager.py:508} INFO - Created Permission View: can read on DAG:example_external_task_marker_parent
+[2023-01-04 07:51:18,897] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,897] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_external_task_marker_parent
+[2023-01-04 07:51:18,913] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,913] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_external_task_marker_parent
+[2023-01-04 07:51:18,959] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,959] {manager.py:508} INFO - Created Permission View: can read on DAG:example_external_task_marker_child
+[2023-01-04 07:51:18,965] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,965] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_external_task_marker_child
+[2023-01-04 07:51:18,972] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,972] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_external_task_marker_child
+[2023-01-04 07:51:18,973] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,973] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 07:51:18,980] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,980] {dag.py:2398} INFO - Creating ORM DAG for example_external_task_marker_parent
+[2023-01-04 07:51:18,980] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,980] {dag.py:2398} INFO - Creating ORM DAG for example_external_task_marker_child
+[2023-01-04 07:51:18,991] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,991] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-01-04 07:51:18,992] {logging_mixin.py:115} INFO - [2023-01-04 07:51:18,992] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-01-04 07:51:19,023] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.299 seconds
+[2023-01-04 07:53:12,460] {processor.py:153} INFO - Started process (PID=24223) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-01-04 07:53:12,461] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-01-04 07:53:12,462] {logging_mixin.py:115} INFO - [2023-01-04 07:53:12,462] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-01-04 07:53:12,470] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-01-04 07:53:12,504] {logging_mixin.py:115} INFO - [2023-01-04 07:53:12,503] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-01-04 07:53:12,535] {logging_mixin.py:115} INFO - [2023-01-04 07:53:12,535] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-01-04 07:53:12,536] {logging_mixin.py:115} INFO - [2023-01-04 07:53:12,536] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-01-04 07:53:12,561] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.109 seconds
