@@ -1,0 +1,18 @@
+[2023-01-04 08:01:09,044] {processor.py:153} INFO - Started process (PID=28334) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-01-04 08:01:09,045] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-01-04 08:01:09,046] {logging_mixin.py:115} INFO - [2023-01-04 08:01:09,046] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-01-04 08:01:09,106] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-01-04 08:01:09,288] {logging_mixin.py:115} INFO - [2023-01-04 08:01:09,287] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2023-01-04 08:01:09,304] {logging_mixin.py:115} INFO - [2023-01-04 08:01:09,303] {manager.py:508} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2023-01-04 08:01:09,319] {logging_mixin.py:115} INFO - [2023-01-04 08:01:09,319] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2023-01-04 08:01:09,320] {logging_mixin.py:115} INFO - [2023-01-04 08:01:09,320] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:09,337] {logging_mixin.py:115} INFO - [2023-01-04 08:01:09,337] {dag.py:2398} INFO - Creating ORM DAG for example_dag_decorator
+[2023-01-04 08:01:09,360] {logging_mixin.py:115} INFO - [2023-01-04 08:01:09,359] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-01-04 08:01:09,386] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.345 seconds
+[2023-01-04 08:01:47,065] {processor.py:153} INFO - Started process (PID=28560) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-01-04 08:01:47,067] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-01-04 08:01:47,068] {logging_mixin.py:115} INFO - [2023-01-04 08:01:47,068] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-01-04 08:01:47,118] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-01-04 08:01:47,193] {logging_mixin.py:115} INFO - [2023-01-04 08:01:47,193] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:47,210] {logging_mixin.py:115} INFO - [2023-01-04 08:01:47,210] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-01-04 08:01:47,227] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.181 seconds

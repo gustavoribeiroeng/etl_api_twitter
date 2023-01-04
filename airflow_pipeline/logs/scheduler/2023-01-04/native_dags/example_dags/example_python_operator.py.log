@@ -1,0 +1,20 @@
+[2023-01-04 08:01:14,511] {processor.py:153} INFO - Started process (PID=28358) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-01-04 08:01:14,512] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-01-04 08:01:14,512] {logging_mixin.py:115} INFO - [2023-01-04 08:01:14,512] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-01-04 08:01:14,544] {logging_mixin.py:115} INFO - [2023-01-04 08:01:14,543] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-01-04 08:01:14,544] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-01-04 08:01:14,663] {logging_mixin.py:115} INFO - [2023-01-04 08:01:14,663] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2023-01-04 08:01:14,680] {logging_mixin.py:115} INFO - [2023-01-04 08:01:14,680] {manager.py:508} INFO - Created Permission View: can read on DAG:example_python_operator
+[2023-01-04 08:01:14,694] {logging_mixin.py:115} INFO - [2023-01-04 08:01:14,694] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2023-01-04 08:01:14,695] {logging_mixin.py:115} INFO - [2023-01-04 08:01:14,695] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:14,706] {logging_mixin.py:115} INFO - [2023-01-04 08:01:14,706] {dag.py:2398} INFO - Creating ORM DAG for example_python_operator
+[2023-01-04 08:01:14,730] {logging_mixin.py:115} INFO - [2023-01-04 08:01:14,730] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-01-04 08:01:14,768] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.263 seconds
+[2023-01-04 08:01:53,254] {processor.py:153} INFO - Started process (PID=28589) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-01-04 08:01:53,261] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-01-04 08:01:53,262] {logging_mixin.py:115} INFO - [2023-01-04 08:01:53,262] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-01-04 08:01:53,326] {logging_mixin.py:115} INFO - [2023-01-04 08:01:53,326] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-01-04 08:01:53,327] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-01-04 08:01:53,370] {logging_mixin.py:115} INFO - [2023-01-04 08:01:53,370] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:53,411] {logging_mixin.py:115} INFO - [2023-01-04 08:01:53,411] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-01-04 08:01:53,436] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.188 seconds

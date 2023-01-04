@@ -1,0 +1,25 @@
+[2023-01-04 08:00:58,450] {processor.py:153} INFO - Started process (PID=28279) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-04 08:00:58,451] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-01-04 08:00:58,453] {logging_mixin.py:115} INFO - [2023-01-04 08:00:58,452] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-04 08:00:58,471] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-04 08:00:58,619] {logging_mixin.py:115} INFO - [2023-01-04 08:00:58,619] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2023-01-04 08:00:58,630] {logging_mixin.py:115} INFO - [2023-01-04 08:00:58,629] {manager.py:508} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2023-01-04 08:00:58,641] {logging_mixin.py:115} INFO - [2023-01-04 08:00:58,641] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2023-01-04 08:00:58,641] {logging_mixin.py:115} INFO - [2023-01-04 08:00:58,641] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:00:58,661] {logging_mixin.py:115} INFO - [2023-01-04 08:00:58,661] {dag.py:2398} INFO - Creating ORM DAG for example_skip_dag
+[2023-01-04 08:00:58,680] {logging_mixin.py:115} INFO - [2023-01-04 08:00:58,680] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-01-03T11:00:58.679958+00:00, run_after=2023-01-04T11:00:58.679958+00:00
+[2023-01-04 08:00:58,713] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.273 seconds
+[2023-01-04 08:01:39,343] {processor.py:153} INFO - Started process (PID=28503) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-04 08:01:39,345] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-01-04 08:01:39,346] {logging_mixin.py:115} INFO - [2023-01-04 08:01:39,346] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-04 08:01:39,354] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-04 08:01:39,380] {logging_mixin.py:115} INFO - [2023-01-04 08:01:39,379] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:39,402] {logging_mixin.py:115} INFO - [2023-01-04 08:01:39,402] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-01-03T11:01:39.401755+00:00, run_after=2023-01-04T11:01:39.401755+00:00
+[2023-01-04 08:01:39,418] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.084 seconds
+[2023-01-04 08:02:16,114] {processor.py:153} INFO - Started process (PID=28712) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-04 08:02:16,115] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-01-04 08:02:16,116] {logging_mixin.py:115} INFO - [2023-01-04 08:02:16,116] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-04 08:02:16,123] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-04 08:02:16,156] {logging_mixin.py:115} INFO - [2023-01-04 08:02:16,156] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:02:16,190] {logging_mixin.py:115} INFO - [2023-01-04 08:02:16,190] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-01-03T11:02:16.190287+00:00, run_after=2023-01-04T11:02:16.190287+00:00
+[2023-01-04 08:02:16,212] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.108 seconds

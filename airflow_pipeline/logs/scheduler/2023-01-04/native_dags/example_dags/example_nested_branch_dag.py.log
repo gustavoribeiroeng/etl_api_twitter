@@ -1,0 +1,18 @@
+[2023-01-04 08:01:22,621] {processor.py:153} INFO - Started process (PID=28401) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-01-04 08:01:22,621] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-01-04 08:01:22,622] {logging_mixin.py:115} INFO - [2023-01-04 08:01:22,622] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-01-04 08:01:22,663] {processor.py:651} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-01-04 08:01:22,822] {logging_mixin.py:115} INFO - [2023-01-04 08:01:22,822] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_nested_branch_dag
+[2023-01-04 08:01:22,840] {logging_mixin.py:115} INFO - [2023-01-04 08:01:22,840] {manager.py:508} INFO - Created Permission View: can read on DAG:example_nested_branch_dag
+[2023-01-04 08:01:22,855] {logging_mixin.py:115} INFO - [2023-01-04 08:01:22,855] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_nested_branch_dag
+[2023-01-04 08:01:22,855] {logging_mixin.py:115} INFO - [2023-01-04 08:01:22,855] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:22,865] {logging_mixin.py:115} INFO - [2023-01-04 08:01:22,865] {dag.py:2398} INFO - Creating ORM DAG for example_nested_branch_dag
+[2023-01-04 08:01:22,882] {logging_mixin.py:115} INFO - [2023-01-04 08:01:22,882] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-01-03T00:00:00+00:00, run_after=2023-01-04T00:00:00+00:00
+[2023-01-04 08:01:22,907] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.296 seconds
+[2023-01-04 08:01:59,185] {processor.py:153} INFO - Started process (PID=28622) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-01-04 08:01:59,186] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-01-04 08:01:59,187] {logging_mixin.py:115} INFO - [2023-01-04 08:01:59,187] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-01-04 08:01:59,212] {processor.py:651} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-01-04 08:01:59,243] {logging_mixin.py:115} INFO - [2023-01-04 08:01:59,243] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:59,286] {logging_mixin.py:115} INFO - [2023-01-04 08:01:59,286] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-01-03T00:00:00+00:00, run_after=2023-01-04T00:00:00+00:00
+[2023-01-04 08:01:59,312] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.137 seconds

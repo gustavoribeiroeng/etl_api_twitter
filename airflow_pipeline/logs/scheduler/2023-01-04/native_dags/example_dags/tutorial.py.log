@@ -1,0 +1,25 @@
+[2023-01-04 08:00:56,146] {processor.py:153} INFO - Started process (PID=28263) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-01-04 08:00:56,147] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-01-04 08:00:56,149] {logging_mixin.py:115} INFO - [2023-01-04 08:00:56,149] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-01-04 08:00:56,185] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-01-04 08:00:56,347] {logging_mixin.py:115} INFO - [2023-01-04 08:00:56,347] {manager.py:508} INFO - Created Permission View: can edit on DAG:tutorial
+[2023-01-04 08:00:56,367] {logging_mixin.py:115} INFO - [2023-01-04 08:00:56,367] {manager.py:508} INFO - Created Permission View: can read on DAG:tutorial
+[2023-01-04 08:00:56,382] {logging_mixin.py:115} INFO - [2023-01-04 08:00:56,382] {manager.py:508} INFO - Created Permission View: can delete on DAG:tutorial
+[2023-01-04 08:00:56,383] {logging_mixin.py:115} INFO - [2023-01-04 08:00:56,383] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:00:56,405] {logging_mixin.py:115} INFO - [2023-01-04 08:00:56,404] {dag.py:2398} INFO - Creating ORM DAG for tutorial
+[2023-01-04 08:00:56,429] {logging_mixin.py:115} INFO - [2023-01-04 08:00:56,428] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-01-03T11:00:56.428328+00:00, run_after=2023-01-04T11:00:56.428328+00:00
+[2023-01-04 08:00:56,461] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.340 seconds
+[2023-01-04 08:01:36,600] {processor.py:153} INFO - Started process (PID=28488) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-01-04 08:01:36,602] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-01-04 08:01:36,603] {logging_mixin.py:115} INFO - [2023-01-04 08:01:36,603] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-01-04 08:01:36,616] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-01-04 08:01:36,660] {logging_mixin.py:115} INFO - [2023-01-04 08:01:36,660] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:36,694] {logging_mixin.py:115} INFO - [2023-01-04 08:01:36,694] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-01-03T11:01:36.693599+00:00, run_after=2023-01-04T11:01:36.693599+00:00
+[2023-01-04 08:01:36,707] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2023-01-04 08:02:13,205] {processor.py:153} INFO - Started process (PID=28686) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-01-04 08:02:13,213] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-01-04 08:02:13,214] {logging_mixin.py:115} INFO - [2023-01-04 08:02:13,214] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-01-04 08:02:13,238] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-01-04 08:02:13,270] {logging_mixin.py:115} INFO - [2023-01-04 08:02:13,269] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:02:13,325] {logging_mixin.py:115} INFO - [2023-01-04 08:02:13,325] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-01-03T11:02:13.324812+00:00, run_after=2023-01-04T11:02:13.324812+00:00
+[2023-01-04 08:02:13,351] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.154 seconds

@@ -1,0 +1,15 @@
+[2023-01-04 08:00:56,857] {processor.py:153} INFO - Started process (PID=28267) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-04 08:00:56,859] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-04 08:00:56,860] {logging_mixin.py:115} INFO - [2023-01-04 08:00:56,860] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-04 08:00:56,863] {processor.py:653} WARNING - No viable dags retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-04 08:00:56,887] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.034 seconds
+[2023-01-04 08:01:37,840] {processor.py:153} INFO - Started process (PID=28499) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-04 08:01:37,844] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-04 08:01:37,845] {logging_mixin.py:115} INFO - [2023-01-04 08:01:37,845] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-04 08:01:37,848] {processor.py:653} WARNING - No viable dags retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-04 08:01:37,874] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.041 seconds
+[2023-01-04 08:02:13,804] {processor.py:153} INFO - Started process (PID=28693) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-04 08:02:13,813] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-04 08:02:13,815] {logging_mixin.py:115} INFO - [2023-01-04 08:02:13,814] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-04 08:02:13,818] {processor.py:653} WARNING - No viable dags retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-04 08:02:13,845] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.053 seconds

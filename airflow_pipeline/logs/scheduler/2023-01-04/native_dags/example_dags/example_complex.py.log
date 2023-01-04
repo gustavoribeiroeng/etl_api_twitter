@@ -1,0 +1,25 @@
+[2023-01-04 08:00:59,801] {processor.py:153} INFO - Started process (PID=28284) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-01-04 08:00:59,803] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-01-04 08:00:59,804] {logging_mixin.py:115} INFO - [2023-01-04 08:00:59,804] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-01-04 08:00:59,823] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-01-04 08:00:59,950] {logging_mixin.py:115} INFO - [2023-01-04 08:00:59,949] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_complex
+[2023-01-04 08:00:59,976] {logging_mixin.py:115} INFO - [2023-01-04 08:00:59,975] {manager.py:508} INFO - Created Permission View: can read on DAG:example_complex
+[2023-01-04 08:00:59,997] {logging_mixin.py:115} INFO - [2023-01-04 08:00:59,996] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_complex
+[2023-01-04 08:01:00,008] {logging_mixin.py:115} INFO - [2023-01-04 08:00:59,997] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:00,029] {logging_mixin.py:115} INFO - [2023-01-04 08:01:00,029] {dag.py:2398} INFO - Creating ORM DAG for example_complex
+[2023-01-04 08:01:00,059] {logging_mixin.py:115} INFO - [2023-01-04 08:01:00,059] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-01-04 08:01:00,096] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.298 seconds
+[2023-01-04 08:01:40,511] {processor.py:153} INFO - Started process (PID=28514) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-01-04 08:01:40,516] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-01-04 08:01:40,517] {logging_mixin.py:115} INFO - [2023-01-04 08:01:40,517] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-01-04 08:01:40,530] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-01-04 08:01:40,555] {logging_mixin.py:115} INFO - [2023-01-04 08:01:40,555] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:40,572] {logging_mixin.py:115} INFO - [2023-01-04 08:01:40,572] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-01-04 08:01:40,587] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.080 seconds
+[2023-01-04 08:02:17,391] {processor.py:153} INFO - Started process (PID=28715) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-01-04 08:02:17,393] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-01-04 08:02:17,393] {logging_mixin.py:115} INFO - [2023-01-04 08:02:17,393] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-01-04 08:02:17,420] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-01-04 08:02:17,452] {logging_mixin.py:115} INFO - [2023-01-04 08:02:17,452] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:02:17,469] {logging_mixin.py:115} INFO - [2023-01-04 08:02:17,469] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-01-04 08:02:17,481] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds

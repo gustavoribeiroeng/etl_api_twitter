@@ -1,0 +1,15 @@
+[2023-01-04 08:00:57,260] {processor.py:153} INFO - Started process (PID=28271) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-01-04 08:00:57,261] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-01-04 08:00:57,262] {logging_mixin.py:115} INFO - [2023-01-04 08:00:57,261] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-01-04 08:00:57,264] {processor.py:653} WARNING - No viable dags retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-01-04 08:00:57,275] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds
+[2023-01-04 08:01:38,992] {processor.py:153} INFO - Started process (PID=28500) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-01-04 08:01:39,000] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-01-04 08:01:39,001] {logging_mixin.py:115} INFO - [2023-01-04 08:01:39,001] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-01-04 08:01:39,005] {processor.py:653} WARNING - No viable dags retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-01-04 08:01:39,042] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.060 seconds
+[2023-01-04 08:02:14,960] {processor.py:153} INFO - Started process (PID=28702) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-01-04 08:02:14,961] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-01-04 08:02:14,962] {logging_mixin.py:115} INFO - [2023-01-04 08:02:14,962] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-01-04 08:02:14,965] {processor.py:653} WARNING - No viable dags retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-01-04 08:02:14,978] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds

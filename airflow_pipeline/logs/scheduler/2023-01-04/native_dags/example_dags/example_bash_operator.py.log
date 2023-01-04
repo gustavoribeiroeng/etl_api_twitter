@@ -1,0 +1,18 @@
+[2023-01-04 08:01:12,530] {processor.py:153} INFO - Started process (PID=28348) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-01-04 08:01:12,531] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-01-04 08:01:12,536] {logging_mixin.py:115} INFO - [2023-01-04 08:01:12,536] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-01-04 08:01:12,596] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-01-04 08:01:12,689] {logging_mixin.py:115} INFO - [2023-01-04 08:01:12,688] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2023-01-04 08:01:12,703] {logging_mixin.py:115} INFO - [2023-01-04 08:01:12,703] {manager.py:508} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2023-01-04 08:01:12,727] {logging_mixin.py:115} INFO - [2023-01-04 08:01:12,727] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2023-01-04 08:01:12,728] {logging_mixin.py:115} INFO - [2023-01-04 08:01:12,728] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:12,736] {logging_mixin.py:115} INFO - [2023-01-04 08:01:12,736] {dag.py:2398} INFO - Creating ORM DAG for example_bash_operator
+[2023-01-04 08:01:12,759] {logging_mixin.py:115} INFO - [2023-01-04 08:01:12,758] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-01-03T00:00:00+00:00, run_after=2023-01-04T00:00:00+00:00
+[2023-01-04 08:01:12,792] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.268 seconds
+[2023-01-04 08:01:50,952] {processor.py:153} INFO - Started process (PID=28574) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-01-04 08:01:50,953] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-01-04 08:01:50,954] {logging_mixin.py:115} INFO - [2023-01-04 08:01:50,954] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-01-04 08:01:50,984] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-01-04 08:01:51,035] {logging_mixin.py:115} INFO - [2023-01-04 08:01:51,035] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:51,058] {logging_mixin.py:115} INFO - [2023-01-04 08:01:51,058] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-01-03T00:00:00+00:00, run_after=2023-01-04T00:00:00+00:00
+[2023-01-04 08:01:51,079] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.142 seconds

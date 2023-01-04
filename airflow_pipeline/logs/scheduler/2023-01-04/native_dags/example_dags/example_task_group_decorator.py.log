@@ -1,0 +1,25 @@
+[2023-01-04 08:00:53,265] {processor.py:153} INFO - Started process (PID=28214) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-04 08:00:53,266] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-01-04 08:00:53,267] {logging_mixin.py:115} INFO - [2023-01-04 08:00:53,267] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-04 08:00:53,349] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-04 08:00:53,453] {logging_mixin.py:115} INFO - [2023-01-04 08:00:53,453] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_task_group_decorator
+[2023-01-04 08:00:53,474] {logging_mixin.py:115} INFO - [2023-01-04 08:00:53,474] {manager.py:508} INFO - Created Permission View: can read on DAG:example_task_group_decorator
+[2023-01-04 08:00:53,481] {logging_mixin.py:115} INFO - [2023-01-04 08:00:53,481] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_task_group_decorator
+[2023-01-04 08:00:53,482] {logging_mixin.py:115} INFO - [2023-01-04 08:00:53,482] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:00:53,495] {logging_mixin.py:115} INFO - [2023-01-04 08:00:53,495] {dag.py:2398} INFO - Creating ORM DAG for example_task_group_decorator
+[2023-01-04 08:00:53,529] {logging_mixin.py:115} INFO - [2023-01-04 08:00:53,529] {dag.py:2927} INFO - Setting next_dagrun for example_task_group_decorator to 2023-01-03T11:00:53.528902+00:00, run_after=2023-01-04T11:00:53.528902+00:00
+[2023-01-04 08:00:53,582] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.328 seconds
+[2023-01-04 08:01:34,084] {processor.py:153} INFO - Started process (PID=28472) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-04 08:01:34,088] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-01-04 08:01:34,089] {logging_mixin.py:115} INFO - [2023-01-04 08:01:34,089] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-04 08:01:34,126] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-04 08:01:34,186] {logging_mixin.py:115} INFO - [2023-01-04 08:01:34,186] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:34,199] {logging_mixin.py:115} INFO - [2023-01-04 08:01:34,199] {dag.py:2927} INFO - Setting next_dagrun for example_task_group_decorator to 2023-01-03T11:01:34.199206+00:00, run_after=2023-01-04T11:01:34.199206+00:00
+[2023-01-04 08:01:34,223] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.143 seconds
+[2023-01-04 08:02:10,750] {processor.py:153} INFO - Started process (PID=28681) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-04 08:02:10,753] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-01-04 08:02:10,756] {logging_mixin.py:115} INFO - [2023-01-04 08:02:10,756] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-04 08:02:10,833] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-04 08:02:10,956] {logging_mixin.py:115} INFO - [2023-01-04 08:02:10,956] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:02:10,979] {logging_mixin.py:115} INFO - [2023-01-04 08:02:10,979] {dag.py:2927} INFO - Setting next_dagrun for example_task_group_decorator to 2023-01-03T11:02:10.979437+00:00, run_after=2023-01-04T11:02:10.979437+00:00
+[2023-01-04 08:02:11,002] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.259 seconds

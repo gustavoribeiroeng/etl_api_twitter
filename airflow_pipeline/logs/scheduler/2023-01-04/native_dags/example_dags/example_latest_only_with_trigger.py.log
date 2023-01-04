@@ -1,0 +1,18 @@
+[2023-01-04 08:01:03,555] {processor.py:153} INFO - Started process (PID=28305) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-04 08:01:03,568] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-01-04 08:01:03,569] {logging_mixin.py:115} INFO - [2023-01-04 08:01:03,568] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-04 08:01:03,591] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-04 08:01:03,752] {logging_mixin.py:115} INFO - [2023-01-04 08:01:03,752] {manager.py:508} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2023-01-04 08:01:03,772] {logging_mixin.py:115} INFO - [2023-01-04 08:01:03,771] {manager.py:508} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2023-01-04 08:01:03,786] {logging_mixin.py:115} INFO - [2023-01-04 08:01:03,786] {manager.py:508} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2023-01-04 08:01:03,786] {logging_mixin.py:115} INFO - [2023-01-04 08:01:03,786] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:03,804] {logging_mixin.py:115} INFO - [2023-01-04 08:01:03,797] {dag.py:2398} INFO - Creating ORM DAG for latest_only_with_trigger
+[2023-01-04 08:01:03,820] {logging_mixin.py:115} INFO - [2023-01-04 08:01:03,820] {dag.py:2927} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-01-04T07:01:03.820205+00:00, run_after=2023-01-04T11:01:03.820205+00:00
+[2023-01-04 08:01:03,866] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.317 seconds
+[2023-01-04 08:01:43,084] {processor.py:153} INFO - Started process (PID=28531) to work on /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-04 08:01:43,089] {processor.py:641} INFO - Processing file /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-01-04 08:01:43,089] {logging_mixin.py:115} INFO - [2023-01-04 08:01:43,089] {dagbag.py:507} INFO - Filling up the DagBag from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-04 08:01:43,095] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-04 08:01:43,135] {logging_mixin.py:115} INFO - [2023-01-04 08:01:43,135] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 08:01:43,151] {logging_mixin.py:115} INFO - [2023-01-04 08:01:43,151] {dag.py:2927} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-01-04T07:01:43.151057+00:00, run_after=2023-01-04T11:01:43.151057+00:00
+[2023-01-04 08:01:43,172] {processor.py:161} INFO - Processing /home/gustavo/Documents/etl_api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.091 seconds
